@@ -12,3 +12,5 @@ node_modules
 *.module-cache
 src
 exercises
+
+.DS_Store
