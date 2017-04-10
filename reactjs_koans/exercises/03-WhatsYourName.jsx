@@ -82,7 +82,7 @@ class WhatsYourName extends React.Component {
   render() {
     var nameToDisplay = 'Hello, ' + this.state.name;
     if (this.state.name.length <= 0) {
-      nameToDisplay = "Hi! Please Enter your name";
+      nameToDisplay = "Hey there. Enter your name.";
     }
     return (
       <div>
