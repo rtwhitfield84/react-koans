@@ -53,30 +53,15 @@ class LifecycleMethodsComponent extends React.Component {
   // This code will be called when the component finishes mounting
   // (so it is visible for a user).
   componentDidMount() {
-    // Task 1: Display a message "I'm mounted!" in developer's console when the
-    //         component finishes mounting.
-    //         Use `console.log` function for it.
+    console.log("I'm mounted!");
   }
 
   componentDidUpdate(prevProps, prevState) {
-    // Task 2: Display a message "Updated!" in developer's console
-    //         when the component updates.
-    //         Here you also need to use the console.log function.
-    //         Notice that in this lifecycle method you have an access
-    //         to previous values of properties and state.
-    //         Think about it: Could you find a possible use case
-    //                         for using previous state and properties values?
+      console.log("Updated!");
   }
 
   componentWillUnmount() {
-    // Task 3: Display a message "Goodbye, cruel world! :(" in developer's
-    //         console when the component unmounts.
-    //         In the real world this lifecycle method is often used to
-    //         'clean up' external integrations from the component.
-    //         Think about the use case like this: You have an event bus and
-    //         you are listening for events. Your event listeners use setState
-    //         directly. What will happen if you unmount the component?
-    //         How can this lifecycle method help you to avoid such problems?
+      console.log("Goodbye, cruel world! :(" );
   }
 
   render() {
